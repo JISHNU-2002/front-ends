@@ -22,7 +22,7 @@ body{
 .col-12{ width:100%;}
 
 div.adminleftcol{
-    background-color: rgb(9, 59, 9);
+    background-color: rgb(17, 47, 24);
     display: block;
     text-align: center;
     padding-bottom:400px;
@@ -62,7 +62,7 @@ div.container{
     height: 35%;
     padding-top:30px;
     background-color: white;
-    color: rgb(4, 31, 4);
+    color: rgb(17, 47, 24);
     text-align: center;
     margin-left: 200px;
     margin-right:200px;
@@ -74,7 +74,7 @@ div.container h1{
 }
 
 div.container .adminbuttons button{
-    background-color: rgb(4, 31, 4) ;
+    background-color: rgb(17, 47, 24) ;
     border-radius: 80%;
     
     height: 60px;
@@ -84,13 +84,33 @@ div.container .adminbuttons button{
     margin-left:30px ;
 }
 
+div.container .adminbuttons button:active {
+    background-color: #0a0e0b;
+    transform: translateY(4px);
+}
+
 #logout{
+    text-decoration: none;
     float: right;
     margin:10px ;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-    width: 70px;
-    height: 29px;
+    color: black;
+    border: none;
+    font-size:20px;
+    font-weight:600;
+}
+
+#home{
+    text-decoration: none;
+    float: left;
+    margin:10px ;
+    color: black;
+    border: none;
+    font-size:20px;
+    font-weight:600;
+}
+
+
+#logout:active ,#home:active {
+    transform: translateY(2px);
 }
 
